@@ -6,20 +6,21 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-color: #222831;
 }
 
 .robot {
-  height: 50rem;
+  height: 30rem;
   width: auto;
 }
 
 button {
   padding: 1rem;
   width: 20rem;
-  background-color: #d65a31;
+  background-color: #cbf0f3;
   border-width: thick;
-  border-color: #262626;
-  color: #eeeeee;
+  border-color: #f3f4f4;
+  color: black;
   font-size: 2rem;
   font-weight: bold;
 }
