@@ -38,7 +38,7 @@ body {
 
 button {
   padding: 1rem;
-  width: 20rem;
+  width: fit-content;
   margin-top: 2rem;
   background-color: #83b0b6;
   border-width: thin;
