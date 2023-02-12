@@ -33,7 +33,7 @@ function computerSpeech(words) {
 
 function determineWords(speech, words) {
   if (words.includes("hello")) {
-    speech.text = "hello human!";
+    speech.text = "hello, human!";
   }
 
   if (words.includes("how are you")) {
@@ -54,7 +54,7 @@ function determineWords(speech, words) {
   }
 
   if (words.includes("tell me a joke")) {
-    speech.text = "the joke is you, ha ha";
+    speech.text = "the joke is you, you have beeen rick rolled, ha ha";
     window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
   }
 
