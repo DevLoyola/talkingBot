@@ -21,13 +21,24 @@ recognition.onresult = function (event) {
 function computerSpeech(words) {
   const speech = new SpeechSynthesisUtterance();
 
-  speech.lang = "en.US";
+  speech.lang = "en-GB";
   speech.pitch = 0.9;
   speech.volume = 1;
   speech.rate = 1;
-  speech.text = words;
+
+  determineWords(speech, words);
 
   window.speechSynthesis.speak(speech);
+}
+
+function determineWords(speech, words) {
+  if (words.includes("hello")) {
+    speech.text = "hello human!";
+  }
+
+  if (words.includes("how are you")) {
+    speech.text = "I am as fine as a robot living on your screen can be";
+  }
 }
 
 button.addEventListener("click", () => {
