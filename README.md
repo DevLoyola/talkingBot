@@ -1,7 +1,7 @@
 Voice chatbot - Sterling
-
 ============
 [![Current Version](https://img.shields.io/badge/version-1.0.2-green.svg)](https://github.com/NelLoyola/talkingBot) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://sterlingthevoicechatbot.netlify.app)
+============
 This voice bot is coded using Web speech API. Through it's speech recognition and synthesis, the bot is able to answer some predefined questions or statements as well as perform a few predefined tasks.
 
 ![Chat Preview](./sterling-voice-chatbot-prevew.png)
