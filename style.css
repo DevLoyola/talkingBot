@@ -98,7 +98,7 @@ body {
   border: none;
   color: #fff;
   padding: 20px;
-  width: 15rem;
+  width: 20rem;
   max-height: fit-content;
   text-align: center;
   transition-duration: 0.4s;
@@ -115,10 +115,11 @@ body {
 }
 
 .commandOptions {
-  width: 15rem;
+  width: 20rem;
   display: none;
   gap: 3rem;
   overflow: hidden;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #fff;
